@@ -1,0 +1,190 @@
+@charset "UTF-8";
+body{
+    font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+    color: #432;
+}  
+li{
+    list-style: none;
+}  
+a{
+    text-decoration: none;
+}
+.wrapper{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+header{
+    font-family:'Philosopher','serif';
+    border-bottom:2px #432 dotted;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100vw;
+    background-color: #f6efdb;
+    opacity: 0.9;
+}
+.head{
+    margin: 5px 0 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.head img{
+    width: 100px;
+}
+.head-nav{
+    display: flex;
+    line-height: auto;
+}
+.item{
+    margin-left: 1.5rem;
+    color: #432;
+    font-size: 0.8rem;
+    line-height: 50px;
+}
+#home{
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+    background-color: #f6efdb;
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+}
+.sec-left{
+    width: 10%;
+    order: 3;
+    margin-left: 4rem;
+    text-align: right;
+}
+.event{
+    display: flex;
+    border-left: 2px #432 solid;
+    position: relative;
+}
+.event img{
+    margin: auto 0;
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+    position: absolute;
+    top: 18%;
+    left: -10px;
+    transform: translateY(1.1rem);
+}
+.event p{
+    padding: 2rem 0 0 1rem;
+    color: #432;
+    margin-bottom: 1.5rem;
+    font-size: 0.8rem;
+}
+.sec-center{
+    width: 40%;
+    order: 2;
+    margin-left: 3rem;
+}
+.page-title{
+    text-align: left;
+    width: 40%;
+    order: 1;
+}
+.page-title img{
+    height: 6rem;
+    margin-bottom: 1rem;
+}
+.page-title p{
+    font-size: 1rem;
+    line-height: 3rem;
+    padding-left: 1rem;
+}
+
+/*contact*/
+#contact{
+    padding-top: 3rem;
+    background-color: #f6efdb;
+    text-align: center;
+    border-top: 1px #432 solid;
+}
+.contact img{
+    height: 6rem;
+    margin-bottom: 1rem;
+}
+form{
+    display: block;
+    text-align: center;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+textarea{
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 0.5;
+    border:1px #432 solid;
+    padding: 10px;
+    color: black;
+    border-radius: 8px;
+}
+input[type="text"],
+input[type="email"]{
+    width: 22rem;
+}
+input[type="text"]{
+    margin-right: 1rem;
+}
+textarea{
+    margin-top: 1rem;
+    width: 45rem;
+    height: 10rem;
+}
+input[type="submit"]{
+    width: 10rem;
+    padding: 0.7rem 1rem;
+    margin:2rem 0 3rem;
+}
+
+
+
+
+/*------------------------------
+:beforeでの作成
+
+.intro{
+    position: relative;
+}
+.life-event{
+    border-left:3px #432 solid;
+    padding-top: 2rem;
+}
+.date{
+    padding-left: 2rem;
+}
+.date::before{
+    content:'';
+    display: inline-block;
+    background: url(../images/icon-circle.png);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-size: contain;
+    position: absolute;
+    left: 2rem;
+    transform: translateX(+77%);
+}
+
+*/
+
+footer{
+    border-top :1px #eddeb5 solid;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
